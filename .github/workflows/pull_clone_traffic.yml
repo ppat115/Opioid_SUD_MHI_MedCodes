@@ -7,7 +7,7 @@ on:
 
 jobs:
   track-clone-traffic:
-    permissions: write-all
+    permissions: read-all
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
