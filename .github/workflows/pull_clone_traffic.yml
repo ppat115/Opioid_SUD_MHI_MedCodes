@@ -7,6 +7,7 @@ on:
 
 jobs:
   track-clone-traffic:
+    environment: Clone_Traffic
     permissions: write-all
     runs-on: ubuntu-latest
     steps:
